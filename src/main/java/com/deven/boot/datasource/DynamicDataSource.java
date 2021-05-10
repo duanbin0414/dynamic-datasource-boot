@@ -23,7 +23,7 @@ import java.util.Map;
 @Component
 public class DynamicDataSource extends AbstractDataSource implements CommandLineRunner {
 
-    private static final String DEFAULT_DB = "coolcollege";
+    private static final String DEFAULT_DB = "defaultDb";
 
     @Autowired
     private DataSource defaultDataSource;
