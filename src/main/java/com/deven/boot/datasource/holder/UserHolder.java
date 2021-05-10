@@ -3,10 +3,6 @@ package com.deven.boot.datasource.holder;
 import com.alibaba.fastjson.JSON;
 import com.google.common.base.Strings;
 
-/**
- * Created by Gavin on 2017/6/20.
- * Update by Joshua on 2017-7-21.
- */
 public class UserHolder {
 
     private static final String algorithmName = "sha1";
